@@ -32,17 +32,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className={styles["pre-sale-container"]}>
-          <div className={styles["pre-sale-timer"]}>
-            <h2 className={styles['pre-sale-heading']}>Pre-sale is Live Now</h2>
-            <p>Pre-Sale ends in</p>
-            <p>30 : 23 : 59 : 59</p>
-            <p>D : H : M : S</p>
-          </div>
-
-          <div className={styles["status-card"]}></div>
-      </div> */}
     </div>
   )
 }
