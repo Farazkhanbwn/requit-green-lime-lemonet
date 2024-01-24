@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo {
+  display: flex;
+  gap: 0.8rem;
+  width: 20rem;
+  height: 3.9rem;
+  cursor: pointer;
+}
+
+.nav__links {
+  padding-top: 0.3rem;
+  display: flex;
+  gap: 1.5rem;
+  margin-left: 7rem;
+}
+
+.nav__links a {
+  text-transform: capitalize;
+  outline: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.nav__controls {
+  display: flex;
+  gap: 1.2rem;
+  margin-left: auto;
+}
+
+.nav__dropdown {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.select-box option {
+  background-color: transparent;
+  color: black;
+}
