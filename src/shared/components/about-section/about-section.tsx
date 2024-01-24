@@ -12,7 +12,6 @@ const AboutSection = () => {
         atque corrupti quos dolores et quas molestias.
       </p>
       <div className={styles['about-section__video-box']}>
-        <div className={styles['overlay']}></div>
         <span>
           <PlayButton />
         </span>

@@ -2,9 +2,10 @@
   border-radius: 20rem;
   border: none;
   background-color: #fff;
-  padding: 1rem 2rem;
+  padding: 1.3rem 2rem;
   font-size: 1.4rem;
   text-align: center;
+  font-weight: 400;
   text-transform: capitalize;
   color: #fff;
   cursor: pointer;
