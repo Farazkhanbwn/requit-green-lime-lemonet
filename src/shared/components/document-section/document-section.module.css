@@ -1,0 +1,59 @@
+.document__section {
+  width: 100%;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  padding: 9rem 0;
+}
+
+.wrapper {
+  max-width: 106.3rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.document__image-container {
+  flex-basis: 42rem;
+}
+
+.document__content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.document__title {
+  font-size: 3.6rem;
+  color: var(--color-white);
+  margin-bottom: 3.5rem;
+}
+
+.document__description {
+  font-size: 1.6rem;
+  color: #fad3d2;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+/* Button styling */
+
+.button-group-container {
+  display: flex;
+  gap: 3rem;
+  text-transform: capitalize;
+}
+
+.mb {
+  margin-bottom: 2rem;
+}
+
+.arrow-icon {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+.custom-button {
+  max-width: 20rem;
+  width: 100%;
+}
