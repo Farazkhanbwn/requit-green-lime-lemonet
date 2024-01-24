@@ -1,0 +1,39 @@
+.button {
+  border-radius: 20rem;
+  border: none;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: var(--color-primary);
+}
+
+.primary {
+  background-color: rgba(148, 203, 112, 1);
+}
+
+.outline {
+  background-color: transparent;
+  border: 2px solid #a8cc8f;
+  text-transform: uppercase;
+}
+
+.outline:hover {
+  background-color: transparent;
+}
+
+.white {
+  color: var(--color-primary);
+  padding: 0.6rem 0.4rem 0.6rem 1.3rem;
+}
+
+.white:hover {
+  color: var(--color-secondary);
+}

@@ -1,0 +1,84 @@
+/* Progress Card Styling */
+.pre-sale__container {
+  max-width: 92rem;
+  margin: 0 auto;
+  display: flex;
+  background-color: var(--color-primary);
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pre-sale__timer {
+  flex-basis: 35rem;
+  padding: 3rem 6rem;
+  background-color: var(--color-white);
+}
+
+.pre-sale__heading {
+  background: linear-gradient(45deg, var(--color-primary), var(--color-seondary));
+  background-clip: text;
+  color: transparent;
+  font-size: 1.8rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+
+.countdown-heading {
+  color: #2f3b4f;
+  font-size: 1.6rem;
+}
+
+.countdown-container {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.countdown-number,
+.countdown-separator {
+  color: #f1ca47;
+  font-weight: 700;
+}
+
+/* Second Card */
+.status-card {
+  padding: 3.5rem 4.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.status-card__title {
+  font-size: 1.8rem;
+  color: var(--color-white);
+}
+
+.status-bar-container {
+  min-height: 3.3rem;
+  width: 100%;
+  background-color: var(--color-white);
+  border-radius: 50rem;
+  display: flex;
+  align-items: center;
+}
+
+.status-bar-fill {
+  min-height: 2.1rem;
+  width: 15rem;
+  background: linear-gradient(145deg, #f2f047 45%, #1ed94f 60%, #1ed94f);
+  border-radius: 50rem;
+  margin-left: 0.7rem;
+}
+
+.status-details {
+  color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-details span {
+  display: inline-block;
+  font-size: 1.4rem;
+}
