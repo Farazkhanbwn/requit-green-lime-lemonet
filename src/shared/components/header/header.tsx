@@ -10,13 +10,13 @@ const Header = () => {
     <div className={styles['container']}>
       <Navbar />
       <div className={styles['wrapper']}>
-        <div className={styles['header-content']}>
-          <h1 className={styles['header-title']}>The 1st Social Network where likes have value</h1>
-          <p className={styles['header-description']}>
+        <div className={styles['header__content']}>
+          <h1 className={styles['header__title']}>The 1st Social Network where likes have value</h1>
+          <p className={styles['header__description']}>
             LEMON provides a unique way for Users to create, post & profit from their content. Based on other users
             opinion. Your opinion matters
           </p>
-          <div className={styles['header-buttons']}>
+          <div className={styles['header__buttons']}>
             <CustomButton type={CustomButtonTypes.WHITE}>
               Lemon Pre-Sale{' '}
               <span className={styles['arrow-icon']}>
@@ -32,17 +32,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className={styles["pre-sale-container"]}>
-          <div className={styles["pre-sale-timer"]}>
-            <h2 className={styles['pre-sale-heading']}>Pre-sale is Live Now</h2>
-            <p>Pre-Sale ends in</p>
-            <p>30 : 23 : 59 : 59</p>
-            <p>D : H : M : S</p>
-          </div>
-
-          <div className={styles["status-card"]}></div>
-      </div> */}
     </div>
   )
 }

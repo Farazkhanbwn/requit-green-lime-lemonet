@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Setup and Run Guide
 
-## Getting Started
+This guide walks you through the steps to set up and run the project in a development environment, ensuring adherence to best practices.
 
-First, run the development server:
+## Prerequisites
+
+Make sure the following software is installed on your machine:
+
+- [Node.js](https://nodejs.org/en/) (version 20.9.0 or higher)
+- [npm](https://www.npmjs.com/) (version 10.1.0 or higher)
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/Farazkhanbwn/requit-green-lime-lemonet
+```
+
+## Install Dependencies
+
+Navigate to the project directory and install the dependencies using the following command:
+
+```bash
+npm install
+```
+
+## Run the Application
+
+Start the development server with the following command:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This command initiates the development server. Open your browser and go to `http://localhost:3000` to access the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The project is organized into distinct directories, each serving a specific purpose:
 
-## Learn More
+### Client Structure:
 
-To learn more about Next.js, take a look at the following resources:
+- **`shared/components`**: Essential components that are reused across the project reside here. These components contribute to a consistent and cohesive user interface.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **`shared/ui`**: UI components that are shared across the project structure are located here. These components encapsulate visual elements to maintain a unified design.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **`services`**: This directory houses services responsible for consuming APIs and handling data retrieval. These services enhance separation of concerns and facilitate clean, modular code.
 
-## Deploy on Vercel
+- **`context`**: The `context` directory includes React context implementations, promoting state management and sharing data between components in an efficient manner.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We invite contributions from the community. Feel free to contribute by forking the repository, making improvements, and creating pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
