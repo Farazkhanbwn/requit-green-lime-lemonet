@@ -28,7 +28,7 @@ const DocumentSection = () => {
                 </span>
               </CustomButton>
               <CustomButton type={CustomButtonTypes.OUTLINE} className={styles['custom-button']}>
-                One Pager{' '}
+                One Pager
                 <span className={styles['arrow-icon']}>
                   <ArrowDown />
                 </span>

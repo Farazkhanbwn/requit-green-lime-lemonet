@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './pre-sale-status-bar.module.css'
+import PreSaleListTile from './pre-sale-list-tile/pre-sale-list-tile'
 
 const PreSaleStatusContainer = () => {
   return (
@@ -8,31 +9,18 @@ const PreSaleStatusContainer = () => {
         <h2 className={styles['pre-sale__heading']}>Pre-sale is Live Now</h2>
         <div>
           <h3 className={styles['countdown-heading']}>Pre-Sale ends in</h3>
-          {/* CounDown List */}
+
           <div className={styles['countdown-container']}>
-            {/* 1 */}
-            <div className={styles['countdown-item']}>
-              <div className={styles['countdown-number']}>30</div>
-              <div>D</div>
-            </div>
+            <PreSaleListTile count="30" text="D" />
+
             <span className={styles['countdown-separator']}>:</span>
-            {/* 2 */}
-            <div className={styles['countdown-item']}>
-              <div className={styles['countdown-number']}>23</div>
-              <div>H</div>
-            </div>
+            <PreSaleListTile count="23" text="H" />
+
             <span className={styles['countdown-separator']}>:</span>
-            {/* 3 */}
-            <div className={styles['countdown-item']}>
-              <div className={styles['countdown-number']}>59</div>
-              <div>M</div>
-            </div>
+            <PreSaleListTile count="59" text="M" />
+
             <span className={styles['countdown-separator']}>:</span>
-            {/* 4 */}
-            <div className={styles['countdown-item']}>
-              <div className={styles['countdown-number']}>59</div>
-              <div>S</div>
-            </div>
+            <PreSaleListTile count="30" text="S" />
           </div>
         </div>
       </div>

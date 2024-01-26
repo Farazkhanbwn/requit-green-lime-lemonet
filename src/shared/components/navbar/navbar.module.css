@@ -40,6 +40,6 @@
 }
 
 .select-box option {
-  background-color: transparent;
+  background-color: red;
   color: black;
 }

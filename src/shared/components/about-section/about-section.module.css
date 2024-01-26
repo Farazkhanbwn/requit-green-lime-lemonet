@@ -11,6 +11,12 @@
   margin: 15.4rem 0 2rem 0;
 }
 
+@media screen and (max-width: 768px) {
+  .about-section__title {
+    margin-top: 8rem;
+  }
+}
+
 .about-section__description {
   max-width: 68rem;
   font-size: 1.6rem;

@@ -11,6 +11,12 @@
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .pre-sale__container {
+    margin-top: -12rem;
+  }
+}
+
 .pre-sale__timer {
   flex-basis: 35rem;
   padding: 3rem 6rem;
@@ -38,7 +44,6 @@
   justify-content: space-between;
 }
 
-.countdown-number,
 .countdown-separator {
   color: #f1ca47;
   font-weight: 700;
