@@ -17,6 +17,12 @@
   }
 }
 
+@media screen and (max-width: 425px) {
+  .pre-sale__container {
+    margin-top: -18rem;
+  }
+}
+
 .pre-sale__timer {
   flex-basis: 35rem;
   padding: 3rem 6rem;
