@@ -67,15 +67,16 @@
   margin-bottom: 5rem;
 }
 
-/* @media screen and (max-width: 660px) {
-  .document__title,.document__description{
+@media screen and (max-width: 660px) {
+  .document__title,
+  .document__description {
     margin-bottom: 3rem;
   }
 
-  .document__description{
+  .document__description {
     max-width: 45rem;
   }
-} */
+}
 
 /* Button styling */
 
