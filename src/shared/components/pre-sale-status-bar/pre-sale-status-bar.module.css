@@ -17,6 +17,12 @@
   }
 }
 
+@media screen and (max-width: 475px) {
+  .pre-sale__container {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .pre-sale__container {
     margin-top: -18rem;
@@ -27,6 +33,18 @@
   flex-basis: 35rem;
   padding: 3rem 6rem;
   background-color: var(--color-white);
+}
+
+@media screen and (max-width: 768px) {
+  .pre-sale__timer {
+    box-shadow: 0 -2px 0.8rem 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .pre-sale__timer {
+    flex-basis: unset;
+  }
 }
 
 .pre-sale__heading {

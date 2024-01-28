@@ -3,7 +3,13 @@ import { IconProps } from '../types/commons.types'
 
 const LogoIcon: React.FC<IconProps> = ({ width = '200px', height = '39px' }) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width={width} height={height}>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+      width={width}
+      height={height}
+      viewBox="0 0 200 39"
+    >
       <g data-name="logo">
         <image
           width="147"
