@@ -10,7 +10,7 @@ const DocumentSection = () => {
     <section className={styles['document__section']}>
       <div className={styles['wrapper']}>
         <div className={styles['document__image-container']}>
-          <Image src="/assets/whitepaper.png" alt="Card" width={420} height={420} />
+          <Image src="/assets/whitepaper.png" fill alt="Card" />
         </div>
         <div className={styles['document__content']}>
           <div className="wrapper-content">
