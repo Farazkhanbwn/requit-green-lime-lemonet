@@ -48,7 +48,7 @@ const Navbar = () => {
           </select>
 
           <CustomButton type={CustomButtonTypes.PRIMARY}>Connect Wellet</CustomButton>
-          <CustomButton type={CustomButtonTypes.OUTLINE}>pre-sale</CustomButton>
+          <CustomButton type={CustomButtonTypes.OUTLINE}>Pre-sale</CustomButton>
         </div>
       </div>
       <div className=""></div>
